@@ -1,0 +1,64 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+    max-width: 700px;
+    margin: auto;
+    background-color: #111111;
+    color: #ffffff;
+}
+
+.input-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color: #3b82f6;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+
+}
+
+table {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+.card {
+    background-color: #222222;
+}
+
+.chart-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+td {
+    border-bottom: 1px solid #444;
+    padding: 10px;
+}
+
+input, select {
+    width: 48%;
+    padding: 10px;
+    background: #222222;
+    border: 1px solid #666;
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+
+h1, h2 { 
+    font-weight: 700;
+ }
+
+ input::placeholder {
+    color: #ffffff;
+}
